@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<permissions>
+	<library name="com.cequint.platform.1.4.75" file="/system/framework/com.cequint.platform.jar"/>
+</permissions>
