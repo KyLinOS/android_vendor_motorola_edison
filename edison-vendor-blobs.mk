@@ -59,7 +59,7 @@ $(VENDOR_BLOB_FOLDER)/etc/smc_android_cfg.ini:/system/etc/smc_android_cfg.ini \
 $(VENDOR_BLOB_FOLDER)/etc/smc_pa.ift:/system/etc/smc_pa.ift \
 $(VENDOR_BLOB_FOLDER)/etc/smc_pa_pk_4_8Mb_ipa.bin:/system/etc/smc_pa_pk_4_8Mb_ipa.bin \
 $(VENDOR_BLOB_FOLDER)/etc/smc_pa_pk_4_ipa.bin:/system/etc/smc_pa_pk_4_ipa.bin \
-$(VENDOR_BLOB_FOLDER)/etc/supportedlocales.conf:/system/etc/supportedlocales.conf 
+$(VENDOR_BLOB_FOLDER)/etc/supportedlocales.conf:/system/etc/supportedlocales.conf \
 
 # system/etc/gps
 PRODUCT_COPY_FILES += \
@@ -68,7 +68,7 @@ $(VENDOR_BLOB_FOLDER)/etc/gps/RxN/MSLConfig.txt:/system/etc/gps/RxN/MSLConfig.tx
 $(VENDOR_BLOB_FOLDER)/etc/gps/RxN/security.key:/system/etc/gps/RxN/security.key \
 $(VENDOR_BLOB_FOLDER)/etc/gps/ti/GPSCConfigFile.cfg:/system/etc/gps/ti/GPSCConfigFile.cfg \
 $(VENDOR_BLOB_FOLDER)/etc/gps/ti/patch-X.0.ce:/system/etc/gps/ti/patch-X.0.ce \
-$(VENDOR_BLOB_FOLDER)/etc/gps/ti/pathconfigfile.txt:/system/etc/gps/ti/pathconfigfile.txt 
+$(VENDOR_BLOB_FOLDER)/etc/gps/ti/pathconfigfile.txt:/system/etc/gps/ti/pathconfigfile.txt \
 
 # system/etc/(others)
 PRODUCT_COPY_FILES += \
@@ -103,7 +103,7 @@ $(VENDOR_BLOB_FOLDER)/usr/share/alsa/pcm/surround40.conf:system/usr/share/alsa/p
 $(VENDOR_BLOB_FOLDER)/usr/share/alsa/pcm/surround41.conf:system/usr/share/alsa/pcm/surround41.conf \
 $(VENDOR_BLOB_FOLDER)/usr/share/alsa/pcm/surround50.conf:system/usr/share/alsa/pcm/surround50.conf \
 $(VENDOR_BLOB_FOLDER)/usr/share/alsa/pcm/surround51.conf:system/usr/share/alsa/pcm/surround51.conf \
-$(VENDOR_BLOB_FOLDER)/usr/share/alsa/pcm/surround71.conf:system/usr/share/alsa/pcm/surround71.conf 
+$(VENDOR_BLOB_FOLDER)/usr/share/alsa/pcm/surround71.conf:system/usr/share/alsa/pcm/surround71.conf \
 
 # system/lib
 PRODUCT_COPY_FILES += \
@@ -180,13 +180,13 @@ $(VENDOR_BLOB_FOLDER)/lib/libvideoeditorlite.so:/system/lib/libvideoeditorlite.s
 $(VENDOR_BLOB_FOLDER)/lib/libvpnclient_jni.so:/system/lib/libvpnclient_jni.so \
 $(VENDOR_BLOB_FOLDER)/lib/libvsuite_mot_vs40_cmb.so:/system/lib/libvsuite_mot_vs40_cmb.so \
 $(VENDOR_BLOB_FOLDER)/lib/libwbxmlparser.so:/system/lib/libwbxmlparser.so \
-$(VENDOR_BLOB_FOLDER)/lib/libwhash.so:/system/lib/libwhash.so 
+$(VENDOR_BLOB_FOLDER)/lib/libwhash.so:/system/lib/libwhash.so \
 $(VENDOR_BLOB_FOLDER)/lib/libWVphoneAPI.so:/system/lib/libWVphoneAPI.so \
 $(VENDOR_BLOB_FOLDER)/lib/libXmp_jni.so:/system/lib/libXmp_jni.so \
 $(VENDOR_BLOB_FOLDER)/lib/libxmpcore.so:/system/lib/libxmpcore.so \
 $(VENDOR_BLOB_FOLDER)/lib/libWifiAPHardware.so:/system/lib/libWifiAPHardware.so \
 $(VENDOR_BLOB_FOLDER)/lib/libportaljni.so:/system/lib/libportaljni.so \
-$(VENDOR_BLOB_FOLDER)/lib/libusb.so:/system/lib/libusb.so 
+$(VENDOR_BLOB_FOLDER)/lib/libusb.so:/system/lib/libusb.so \
 $(VENDOR_BLOB_FOLDER)/lib/drm/libmotdrmplugin.so:/system/lib/drm/libmotdrmplugin.so \
 
 # RIL files
@@ -196,7 +196,7 @@ $(VENDOR_BLOB_FOLDER)/lib/libbabysit.so:/system/lib/libbabysit.so \
 $(VENDOR_BLOB_FOLDER)/lib/libgki.so:/system/lib/libgki.so \
 $(VENDOR_BLOB_FOLDER)/lib/libmot_atcmd.so:/system/lib/libmot_atcmd.so \
 $(VENDOR_BLOB_FOLDER)/lib/libu300-parser.so:/system/lib/libu300-parser.so \
-$(VENDOR_BLOB_FOLDER)/lib/libu300-ril.so:/system/lib/libu300-ril.so 
+$(VENDOR_BLOB_FOLDER)/lib/libu300-ril.so:/system/lib/libu300-ril.so \
 
 # system/lib/hw
 PRODUCT_COPY_FILES += \
