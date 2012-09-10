@@ -1,4 +1,4 @@
-# Copyright (C) 2010 The Android Open Source Project
+# Copyright (C) 2012 The Android Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -12,20 +12,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# Live wallpaper packages
-PRODUCT_PACKAGES := \
-    LiveWallpapers \
-    LiveWallpapersPicker \
-    MagicSmokeWallpapers \
-    VisualizationWallpapers \
-    librs_jni
-
-# Publish that we support the live wallpaper feature.
-PRODUCT_COPY_FILES := \
-    packages/wallpapers/LivePicker/android.software.live_wallpaper.xml:/system/etc/permissions/android.software.live_wallpaper.xml
-
 # Pick up overlay for features that depend on non-open-source files
 #DEVICE_PACKAGE_OVERLAYS := vendor/motorola/edison/overlay
 
 $(call inherit-product, vendor/motorola/edison/edison-vendor-blobs.mk)
+$(call inherit-product, vendor/motorola/common/common-vendor.mk)
 
