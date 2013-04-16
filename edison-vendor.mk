@@ -16,5 +16,5 @@
 #DEVICE_PACKAGE_OVERLAYS := vendor/motorola/edison/overlay
 
 $(call inherit-product, vendor/motorola/edison/edison-vendor-blobs.mk)
-$(call inherit-product, vendor/motorola/common/common-vendor.mk)
+$(call inherit-product, vendor/motorola/omap4-common/common-vendor.mk)
 
