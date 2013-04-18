@@ -87,6 +87,9 @@ $(VENDOR_BLOB_FOLDER)/usr/bin/panic_daemon:system/usr/bin/panic_daemon \
 $(VENDOR_BLOB_FOLDER)/usr/idc/evfwd.idc:system/usr/idc/evfwd.idc \
 $(VENDOR_BLOB_FOLDER)/usr/idc/qwerty.idc:system/usr/idc/qwerty.idc \
 $(VENDOR_BLOB_FOLDER)/usr/idc/qwerty2.idc:system/usr/idc/qwerty2.idc \
+$(VENDOR_BLOB_FOLDER)/usr/idc/Motorola_Mobility_Motorola_HD_Dock.idc:system/usr/idc/Motorola_Mobility_Motorola_HD_Dock.idc \
+$(VENDOR_BLOB_FOLDER)/usr/keylayout/cpcap-key.kl:system/usr/keylayout/cpcap-key.kl \
+$(VENDOR_BLOB_FOLDER)/usr/keylayout/cy8c201xx.kl:system/usr/keylayout/cy8c201xx.kl \
 $(VENDOR_BLOB_FOLDER)/usr/share/alsa/alsa.conf:system/usr/share/alsa/alsa.conf \
 $(VENDOR_BLOB_FOLDER)/usr/share/alsa/cards/aliases.conf:system/usr/share/alsa/cards/aliases.conf \
 $(VENDOR_BLOB_FOLDER)/usr/share/alsa/pcm/center_lfe.conf:system/usr/share/alsa/pcm/center_lfe.conf \
