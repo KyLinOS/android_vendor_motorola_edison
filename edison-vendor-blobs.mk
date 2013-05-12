@@ -63,6 +63,7 @@ $(VENDOR_BLOB_FOLDER)/etc/supportedlocales.conf:/system/etc/supportedlocales.con
 $(VENDOR_BLOB_FOLDER)/etc/media_codecs.xml:/system/etc/media_codecs.xml \
 
 # system/etc/bluetooth
+PRODUCT_COPY_FILES += \
 $(VENDOR_BLOB_FOLDER)/etc/bluetooth/audio.conf:/system/etc/bluetooth/audio.conf \
 $(VENDOR_BLOB_FOLDER)/etc/bluetooth/auto_pairing.conf:/system/etc/bluetooth/auto_pairing.conf \
 $(VENDOR_BLOB_FOLDER)/etc/bluetooth/blacklist.conf:/system/etc/bluetooth/blacklist.conf \
