@@ -60,6 +60,15 @@ $(VENDOR_BLOB_FOLDER)/etc/smc_pa.ift:/system/etc/smc_pa.ift \
 $(VENDOR_BLOB_FOLDER)/etc/smc_pa_pk_4_8Mb_ipa.bin:/system/etc/smc_pa_pk_4_8Mb_ipa.bin \
 $(VENDOR_BLOB_FOLDER)/etc/smc_pa_pk_4_ipa.bin:/system/etc/smc_pa_pk_4_ipa.bin \
 $(VENDOR_BLOB_FOLDER)/etc/supportedlocales.conf:/system/etc/supportedlocales.conf \
+$(VENDOR_BLOB_FOLDER)/etc/media_codecs.xml:/system/etc/media_codecs.xml \
+
+# system/etc/bluetooth
+$(VENDOR_BLOB_FOLDER)/etc/bluetooth/audio.conf:/system/etc/bluetooth/audio.conf \
+$(VENDOR_BLOB_FOLDER)/etc/bluetooth/auto_pairing.conf:/system/etc/bluetooth/auto_pairing.conf \
+$(VENDOR_BLOB_FOLDER)/etc/bluetooth/blacklist.conf:/system/etc/bluetooth/blacklist.conf \
+$(VENDOR_BLOB_FOLDER)/etc/bluetooth/input.conf:/system/etc/bluetooth/input.conf \
+$(VENDOR_BLOB_FOLDER)/etc/bluetooth/main.conf:/system/etc/bluetooth/main.conf \
+$(VENDOR_BLOB_FOLDER)/etc/bluetooth/network.conf:/system/etc/bluetooth/network.conf \
 
 # system/etc/gps
 PRODUCT_COPY_FILES += \
