@@ -83,6 +83,16 @@ $(VENDOR_BLOB_FOLDER)/etc/gps/ti/pathconfigfile.txt:/system/etc/gps/ti/pathconfi
 # system/etc/(others)
 PRODUCT_COPY_FILES += \
 $(VENDOR_BLOB_FOLDER)/etc/firmware/ap_bt_data.bin:/system/etc/firmware/ap_bt_data.bin \
+$(VENDOR_BLOB_FOLDER)/etc/firmware/fmc_init_1283.2.bts:/system/etc/firmware/fmc_init_1283.2.bts \
+$(VENDOR_BLOB_FOLDER)/etc/firmware/fm_rx_init_1283.2.bts:/system/etc/firmware/fm_rx_init_1283.2.bts \
+$(VENDOR_BLOB_FOLDER)/etc/firmware/TIInit_10.6.15.bts:/system/etc/firmware/TIInit_10.6.15.bts \
+$(VENDOR_BLOB_FOLDER)/etc/firmware/ti-connectivity/wl1271-nvs_127x.bin:system/etc/firmware/ti-connectivity/wl1271-nvs_127x.bin \
+$(VENDOR_BLOB_FOLDER)/etc/firmware/ti-connectivity/wl127x-fw-4-mr.bin:system/etc/firmware/ti-connectivity/wl127x-fw-4-mr.bin \
+$(VENDOR_BLOB_FOLDER)/etc/firmware/ti-connectivity/wl127x-fw-4-plt.bin:system/etc/firmware/ti-connectivity/wl127x-fw-4-plt.bin \
+$(VENDOR_BLOB_FOLDER)/etc/firmware/ti-connectivity/wl127x-fw-4-sr.bin:system/etc/firmware/ti-connectivity/wl127x-fw-4-sr.bin \
+$(VENDOR_BLOB_FOLDER)/etc/firmware/ti-connectivity/wl128x-fw-4-mr.bin:system/etc/firmware/ti-connectivity/wl128x-fw-4-mr.bin \
+$(VENDOR_BLOB_FOLDER)/etc/firmware/ti-connectivity/wl128x-fw-4-plt.bin:system/etc/firmware/ti-connectivity/wl128x-fw-4-plt.bin \
+$(VENDOR_BLOB_FOLDER)/etc/firmware/ti-connectivity/wl128x-fw-4-sr.bin:system/etc/firmware/ti-connectivity/wl128x-fw-4-sr.bin \
 $(VENDOR_BLOB_FOLDER)/etc/nuance/vsuite_config.xml:/system/etc/nuance/vsuite_config.xml \
 $(VENDOR_BLOB_FOLDER)/etc/security/suplcerts.bks:system/etc/security/suplcerts.bks \
 $(VENDOR_BLOB_FOLDER)/etc/updatecmds/google_generic_update.txt:/system/etc/updatecmds/google_generic_update.txt \
@@ -136,6 +146,8 @@ $(VENDOR_BLOB_FOLDER)/lib/libadkutils.so:/system/lib/libadkutils.so \
 $(VENDOR_BLOB_FOLDER)/lib/libamcm.so:/system/lib/libamcm.so \
 $(VENDOR_BLOB_FOLDER)/lib/libapr-1.so:/system/lib/libapr-1.so \
 $(VENDOR_BLOB_FOLDER)/lib/libat.so:/system/lib/libat.so \
+$(VENDOR_BLOB_FOLDER)/lib/libaudioflinger.so:/system/lib/libaudioflinger.so \
+$(VENDOR_BLOB_FOLDER)/lib/libaudiotcmd.so:/system/lib/libaudiotcmd.so \
 $(VENDOR_BLOB_FOLDER)/lib/libbattd.so:/system/lib/libbattd.so \
 $(VENDOR_BLOB_FOLDER)/lib/libbcbmsg.so:/system/lib/libbcbmsg.so \
 $(VENDOR_BLOB_FOLDER)/lib/libbt-aptx-4.0.3.so:/system/lib/libbt-aptx-4.0.3.so \
@@ -228,6 +240,15 @@ PRODUCT_COPY_FILES += \
 $(VENDOR_BLOB_FOLDER)/lib/hw/gps.edison.so:/system/lib/hw/gps.edison.so \
 $(VENDOR_BLOB_FOLDER)/lib/hw/lights.edison.so:/system/lib/hw/lights.edison.so \
 $(VENDOR_BLOB_FOLDER)/lib/hw/sensors.edison.so:/system/lib/hw/sensors.edison.so \
+$(VENDOR_BLOB_FOLDER)/lib/hw/audio_policy.default.so:/system/lib/hw/audio_policy.default.so \
+$(VENDOR_BLOB_FOLDER)/lib/hw/audio_policy.omap4.so:/system/lib/hw/audio_policy.omap4.so \
+$(VENDOR_BLOB_FOLDER)/lib/hw/audio.primary.default.so:/system/lib/hw/audio.primary.default.so \
+
+# audio
+PRODUCT_COPY_FILES += \
+$(VENDOR_BLOB_FOLDER)/lib/libaudio_ext.so:/system/lib/libaudio_ext.so \
+$(VENDOR_BLOB_FOLDER)/lib/hw/alsa.omap4.so:/system/lib/hw/alsa.omap4.so \
+$(VENDOR_BLOB_FOLDER)/lib/hw/audio.primary.omap4.so:/system/lib/hw/audio.primary.omap4.so
 
 # system/vendor
 PRODUCT_COPY_FILES += \
