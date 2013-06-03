@@ -20,6 +20,7 @@ $(VENDOR_BLOB_FOLDER)/bin/ecckeyd:/system/bin/ecckeyd \
 $(VENDOR_BLOB_FOLDER)/bin/ee_driver:/system/bin/ee_driver \
 $(VENDOR_BLOB_FOLDER)/bin/enc_mgt_tool:/system/bin/enc_mgt_tool \
 $(VENDOR_BLOB_FOLDER)/bin/gps_driver:/system/bin/gps_driver \
+$(VENDOR_BLOB_FOLDER)/bin/location:/system/bin/location \
 $(VENDOR_BLOB_FOLDER)/bin/mfa:/system/bin/mfa \
 $(VENDOR_BLOB_FOLDER)/bin/mfa_send:/system/bin/mfa_send \
 $(VENDOR_BLOB_FOLDER)/bin/mid:/system/bin/mid \
