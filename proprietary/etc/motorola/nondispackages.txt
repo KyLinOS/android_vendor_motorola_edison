@@ -1,0 +1,2 @@
+com.android.contacts
+com.motorola.messaging
